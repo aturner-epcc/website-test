@@ -5,8 +5,18 @@
 
   <body>
 
-    {% include navbar.html %}
-    {% include carousel.html %}
+    {% include navbar_home.html %}
+    {% include banner.html %}
+    <div style="clear: both;"></div>
+    <div class="container-fluid">
+       <div class="col-sm-6 col-md-6 col-lg-6">
+           {% include carousel_new.html %}
+       </div>
+       <div class="col-sm-6 col-md-6 col-lg-6">
+           {% include news_panel.html %}
+       </div>
+    </div>
+    <div style="clear: both;"></div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->

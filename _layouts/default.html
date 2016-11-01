@@ -5,15 +5,14 @@
 
   <body>
 
-    {% include header.html %}
+    {% include navbar.html %}
+    <div style="clear: both;padding-bottom: 50px"></div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <div class="container-fluid">
+          {{ content }}
+    </div>
 
-    {% include footer.html %}
+    {% include bootstrap_js.html %}
 
   </body>
 

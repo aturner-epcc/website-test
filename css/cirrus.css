@@ -1,6 +1,24 @@
+/* Fix issues with carousel button colors */
 a.btn-lg {
   color: #fff; 
 }
 a.btn-default {
   color: #007d7b; 
 }
+
+/* Styles for banner */
+.cirrus-banner {
+   display: block;
+   width: 100%;
+   clear: both;
+   padding-top: 55px;
+}
+.cirrus-banner img.left {
+   float: left;
+   clear: both;
+}
+.cirrus-banner img.right {
+   clear: none;
+   float: right;
+}
+
