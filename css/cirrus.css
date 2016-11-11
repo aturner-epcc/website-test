@@ -10,15 +10,18 @@ a.btn-default {
 .cirrus-banner {
    display: block;
    width: 100%;
-   clear: both;
-   padding-top: 55px;
 }
-.cirrus-banner img.left {
-   float: left;
-   clear: both;
+.cirrus-banner-txt {
+   font-size: 125%;
+   text-align: center;
+   padding-top: 25px;
+   color: #007d7b;
 }
-.cirrus-banner img.right {
-   clear: none;
-   float: right;
+
+.carousel .carousel-inner img {
+   object-fit: cover;
+   overflow: hidden;
+   height: none;
+   width: 100%
 }
 

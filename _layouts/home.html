@@ -6,14 +6,21 @@
   <body>
 
     {% include navbar_home.html %}
-    {% include banner.html %}
     <div style="clear: both;"></div>
     <div class="container-fluid">
-       <div class="col-sm-6 col-md-6 col-lg-6">
-           {% include carousel_new.html %}
+       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          {% include banner.html %}
+          <p class="cirrus-banner-txt">Innovation and Research using state-of-the art High Performance Computing</p>
        </div>
-       <div class="col-sm-6 col-md-6 col-lg-6">
+       <div class="hidden-xs hidden-sm col-md-7 col-lg-7">
+          {% include carousel_new.html %}
+       </div>
+    </div>
+    <div class="container-fluid">
+       <div class="col-md-5 col-lg-5">
            {% include news_panel.html %}
+       </div>
+       <div class="col-md-7 col-lg-7">
        </div>
     </div>
     <div style="clear: both;"></div>
